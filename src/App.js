@@ -1,23 +1,14 @@
-import logo from './logo.svg';
+import React from "react";
 import './App.css';
 
-function App() {
+const App = () => {
+
+  const APP_ID = "8ae89c0f";
+  const APP_KEY = "ab93684cfdc24a6687771c158dbaba2f";
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="App"> 
+      <h1>Hello React, Let's Get Started</h1>
     </div>
   );
 }
